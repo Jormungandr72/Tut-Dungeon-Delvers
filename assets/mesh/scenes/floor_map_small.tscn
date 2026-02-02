@@ -1,0 +1,49 @@
+[gd_scene load_steps=16 format=3 uid="uid://byhcrrsckc7o8"]
+
+[ext_resource type="PackedScene" uid="uid://buxmfv524ptk" path="res://assets/3d/dungeon/floor_small/floor_dirt_small_A.gltf" id="1_s1dww"]
+[ext_resource type="PackedScene" uid="uid://c1n87luglat7q" path="res://assets/3d/dungeon/floor_small/floor_dirt_small_B.gltf" id="2_o160c"]
+[ext_resource type="PackedScene" uid="uid://c0wm5eohehbgf" path="res://assets/3d/dungeon/floor_small/floor_dirt_small_C.gltf" id="3_eue5v"]
+[ext_resource type="PackedScene" uid="uid://b0be5drq2mqow" path="res://assets/3d/dungeon/floor_small/floor_dirt_small_corner.gltf" id="4_mwq8o"]
+[ext_resource type="PackedScene" uid="uid://c8p73qctx28vc" path="res://assets/3d/dungeon/floor_small/floor_dirt_small_D.gltf" id="5_4pwt1"]
+[ext_resource type="PackedScene" uid="uid://cuf3jtp7lbx3i" path="res://assets/3d/dungeon/floor_small/floor_dirt_small_weeds.gltf" id="6_uoh1s"]
+[ext_resource type="PackedScene" uid="uid://c6gluovuu235g" path="res://assets/3d/dungeon/floor_small/floor_tile_small.gltf" id="7_6liiu"]
+[ext_resource type="PackedScene" uid="uid://kk0gp120ye6g" path="res://assets/3d/dungeon/floor_small/floor_tile_small_broken_A.gltf" id="8_ngh1l"]
+[ext_resource type="PackedScene" uid="uid://7oxyrccgjge0" path="res://assets/3d/dungeon/floor_small/floor_tile_small_broken_B.gltf" id="9_sjmqd"]
+[ext_resource type="PackedScene" uid="uid://dqr76vn2di070" path="res://assets/3d/dungeon/floor_small/floor_tile_small_corner.gltf" id="10_csnj5"]
+[ext_resource type="PackedScene" uid="uid://bbb3et0safnen" path="res://assets/3d/dungeon/floor_small/floor_tile_small_decorated.gltf" id="11_5c8mj"]
+[ext_resource type="PackedScene" uid="uid://cuokevkqecc72" path="res://assets/3d/dungeon/floor_small/floor_tile_small_weeds_A.gltf" id="12_d331a"]
+[ext_resource type="PackedScene" uid="uid://dkh20ljb0rnk4" path="res://assets/3d/dungeon/floor_small/floor_tile_small_weeds_B.gltf" id="13_wynry"]
+[ext_resource type="PackedScene" uid="uid://dkpy1butwxb7n" path="res://assets/3d/dungeon/floor_small/floor_wood_small.gltf" id="14_bn28r"]
+[ext_resource type="PackedScene" uid="uid://brvd6iufr2g4a" path="res://assets/3d/dungeon/floor_small/floor_wood_small_dark.gltf" id="15_ihunp"]
+
+[node name="FloorMapSmall" type="Node3D"]
+
+[node name="floor_dirt_small_A2" parent="." instance=ExtResource("1_s1dww")]
+
+[node name="floor_dirt_small_B2" parent="." instance=ExtResource("2_o160c")]
+
+[node name="floor_dirt_small_C2" parent="." instance=ExtResource("3_eue5v")]
+
+[node name="floor_dirt_small_corner2" parent="." instance=ExtResource("4_mwq8o")]
+
+[node name="floor_dirt_small_D2" parent="." instance=ExtResource("5_4pwt1")]
+
+[node name="floor_dirt_small_weeds2" parent="." instance=ExtResource("6_uoh1s")]
+
+[node name="floor_tile_small2" parent="." instance=ExtResource("7_6liiu")]
+
+[node name="floor_tile_small_broken_A2" parent="." instance=ExtResource("8_ngh1l")]
+
+[node name="floor_tile_small_broken_B2" parent="." instance=ExtResource("9_sjmqd")]
+
+[node name="floor_tile_small_corner2" parent="." instance=ExtResource("10_csnj5")]
+
+[node name="floor_tile_small_decorated2" parent="." instance=ExtResource("11_5c8mj")]
+
+[node name="floor_tile_small_weeds_A2" parent="." instance=ExtResource("12_d331a")]
+
+[node name="floor_tile_small_weeds_B2" parent="." instance=ExtResource("13_wynry")]
+
+[node name="floor_wood_small2" parent="." instance=ExtResource("14_bn28r")]
+
+[node name="floor_wood_small_dark2" parent="." instance=ExtResource("15_ihunp")]

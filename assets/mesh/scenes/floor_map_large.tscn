@@ -1,0 +1,31 @@
+[gd_scene load_steps=10 format=3 uid="uid://dr4kx3d7hk541"]
+
+[ext_resource type="PackedScene" uid="uid://c3sl2jq4blen1" path="res://assets/3d/dungeon/floor_large/floor_dirt_large.gltf" id="1_ixjt0"]
+[ext_resource type="PackedScene" uid="uid://5bkjwb6u7ms3" path="res://assets/3d/dungeon/floor_large/floor_dirt_large_rocky.gltf" id="2_a83oe"]
+[ext_resource type="PackedScene" uid="uid://dqwms8f0cu6e5" path="res://assets/3d/dungeon/floor_large/floor_tile_big_grate.gltf" id="3_7lw8f"]
+[ext_resource type="PackedScene" uid="uid://cgf0wd8ya2pr" path="res://assets/3d/dungeon/floor_large/floor_tile_big_grate_open.gltf" id="4_01588"]
+[ext_resource type="PackedScene" uid="uid://bbyql7o8s5rxt" path="res://assets/3d/dungeon/floor_large/floor_tile_big_spikes.gltf" id="5_wf3kw"]
+[ext_resource type="PackedScene" uid="uid://dmt1a8y2bj6mc" path="res://assets/3d/dungeon/floor_large/floor_tile_large.gltf" id="6_yjkuw"]
+[ext_resource type="PackedScene" uid="uid://bn4i4rvh0tnk" path="res://assets/3d/dungeon/floor_large/floor_tile_large_rocks.gltf" id="7_pmnd4"]
+[ext_resource type="PackedScene" uid="uid://bnkqrccc5ih2g" path="res://assets/3d/dungeon/floor_large/floor_wood_large.gltf" id="8_ny5a2"]
+[ext_resource type="PackedScene" uid="uid://bxuxy8by7s4ly" path="res://assets/3d/dungeon/floor_large/floor_wood_large_dark.gltf" id="9_i7571"]
+
+[node name="FloorMapLarge" type="Node3D"]
+
+[node name="floor_dirt_large2" parent="." instance=ExtResource("1_ixjt0")]
+
+[node name="floor_dirt_large_rocky2" parent="." instance=ExtResource("2_a83oe")]
+
+[node name="floor_tile_big_grate2" parent="." instance=ExtResource("3_7lw8f")]
+
+[node name="floor_tile_big_grate_open2" parent="." instance=ExtResource("4_01588")]
+
+[node name="floor_tile_big_spikes2" parent="." instance=ExtResource("5_wf3kw")]
+
+[node name="floor_tile_large2" parent="." instance=ExtResource("6_yjkuw")]
+
+[node name="floor_tile_large_rocks2" parent="." instance=ExtResource("7_pmnd4")]
+
+[node name="floor_wood_large2" parent="." instance=ExtResource("8_ny5a2")]
+
+[node name="floor_wood_large_dark2" parent="." instance=ExtResource("9_i7571")]

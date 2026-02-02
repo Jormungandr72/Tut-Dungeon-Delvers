@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://c83waq7cky0m"]
+
+[ext_resource type="MeshLibrary" uid="uid://cegmjwlp3f7jv" path="res://assets/mesh/libraries/floor_map_xl.meshlib" id="1_blf3a"]
+
+[node name="xl_floor" type="GridMap"]
+mesh_library = ExtResource("1_blf3a")
+cell_size = Vector3(8, 2, 8)
+cell_center_y = false
